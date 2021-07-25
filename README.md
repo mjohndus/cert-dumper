@@ -1,2 +1,2 @@
 # cert-dumper
-Traefik certificate auslesen
+Reads Certificate from Traefik
