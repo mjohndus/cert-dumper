@@ -1,7 +1,7 @@
 # cert-dumper
 Read Certificate from Traefik
 
-# Usage
+## Usage
 
 usage all Certificates:
        acme.sh </path/to> </dest/path>
