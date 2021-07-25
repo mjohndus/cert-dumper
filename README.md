@@ -1,4 +1,4 @@
-# cert-dumper
+# Cert-Dumper
 Read Certificate from Traefik
 
 ## Usage
