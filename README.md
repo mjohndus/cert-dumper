@@ -21,12 +21,9 @@ usage 1,2.. Certificates:
 
 ## Output
 
-example:
-
-sub.domain.de,...
-
-for each sub
-
+example: 
+sub.domain.de,... 
+for each sub 
 folder: sub/
 
 files : 
