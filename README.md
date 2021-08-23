@@ -21,17 +21,21 @@ usage 1,2.. Certificates:
 
 ## Output
 
-example:
-sub.domain.de,...
-for each sub
-folder: sub/
-files :
-        cert.pem
-        chain.pem
-        sub.domain.de.pem
-        equal to
-        fullchain.pem
-        privkey.pem
-and out of folder:
-Account.PrivateKey -> private.key
+#### example:  
+    sub.domain.de,...  
+
+for each sub  
+folder: sub/  
+
+files :  
+
+    cert.pem  
+    chain.pem  
+    sub.domain.de.pem  
+    equal to  
+    fullchain.pem  
+    privkey.pem  
+
+and out of folder:  
+Account.PrivateKey -> private.key  
         
