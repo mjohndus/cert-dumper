@@ -34,7 +34,7 @@ files :
         cert.pem
         chain.pem
         sub.domain.de.pem
-        equal ->
+        equal to
         fullchain.pem
         privkey.pem
 
