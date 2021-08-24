@@ -11,7 +11,7 @@ Read Certificate from Traefik
        
        </dest/path> -> output directory -> </tmp/domain-name>
 
-#### usage 1,2.. Certificates:  
+#### usage 1,2,.. Certificates:  
 
        acme.sh </path/to> </dest/path> <sub.domain.de>
        
