@@ -1,5 +1,5 @@
 # Cert-Dumper
-Read Certificate from Traefik
+Convert Certificate from Traefik
 
 ## Usage
 
