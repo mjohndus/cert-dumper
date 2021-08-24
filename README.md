@@ -8,14 +8,14 @@ usage all Certificates:
        
        </path/to -> acme.json> -> without - acme.json
        
-       </dest/path> -> output directory
+       </dest/path> -> output directory -> </tmp/domain-name>
 
 usage 1,2.. Certificates:
        acme.sh </path/to> </dest/path> <sub.domain.de>
        
        </path/to -> acme.json> -> without - acme.json
        
-       </dest/path> -> output directory
+       </dest/path> -> output directory -> </tmp/domain-name>
        
        <sub.domain.de> -> single - sub.domain.de or multi - seperated by ',' sub.domain.de,sub2.domain.de,...
 
