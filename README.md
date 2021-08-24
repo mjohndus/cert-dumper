@@ -24,20 +24,26 @@ usage 1,2.. Certificates:
 ## Output
 
 #### example:  
-</domain-name>  
-  sub.domain.de,... for each sub  
 
-    folder: sub/  
+/tmp/domain-name  
+  -  private.key
 
-       files :  
+1. /sub  
+   - files :  
+     - cert.pem  
+     - chain.pem  
+     - sub.domain.de.pem  
+     - equal to  
+     - fullchain.pem  
+     - privkey.pem  
 
-       cert.pem  
-       chain.pem  
-       sub.domain.de.pem  
-       equal to  
-       fullchain.pem  
-       privkey.pem  
-
-and out of folder:  
-Account.PrivateKey -> private.key  
-        
+2. /sub  
+   - files:  
+     - cert.pem
+     - chain.pem
+     - sub.domain.pem
+     - equal to
+     - fullchain.pem
+     - privkey.pem  
+ 
+ 
