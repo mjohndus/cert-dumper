@@ -3,14 +3,16 @@ Read Certificate from Traefik
 
 ## Usage
 
-usage all Certificates:
+usage all Certificates:  
+
        acme.sh </path/to> </dest/path>
        
        </path/to -> acme.json> -> without - acme.json
        
        </dest/path> -> output directory -> </tmp/domain-name>
 
-usage 1,2.. Certificates:
+usage 1,2.. Certificates:  
+
        acme.sh </path/to> </dest/path> <sub.domain.de>
        
        </path/to -> acme.json> -> without - acme.json
@@ -22,19 +24,19 @@ usage 1,2.. Certificates:
 ## Output
 
 #### example:  
-    sub.domain.de,...  
+</domain-name>  
+  sub.domain.de,... for each sub  
 
-for each sub  
-folder: sub/  
+    folder: sub/  
 
-files :  
+       files :  
 
-    cert.pem  
-    chain.pem  
-    sub.domain.de.pem  
-    equal to  
-    fullchain.pem  
-    privkey.pem  
+       cert.pem  
+       chain.pem  
+       sub.domain.de.pem  
+       equal to  
+       fullchain.pem  
+       privkey.pem  
 
 and out of folder:  
 Account.PrivateKey -> private.key  
