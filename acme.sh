@@ -82,7 +82,7 @@ cat $ordner1/$acme1/$acme.pem | sed -n "${cers[0]},${cere[0]}p" > $ordner1/$acme
 cat $ordner1/$acme1/$acme.pem | sed -n "${cers[1]},${cere[$ae]}p" > $ordner1/$acme1/chain.pem || bad_certs
 # O.K. fullchain
 #cat $ordner1/$acme1/cert.pem $ordner1/$acme1/chain.pem > $ordner1/$acme1/fullchain.pem
-cp $ordner1/$acme1/$acme.pem $ordner1/$acme1/fullchain.pem || bad_certs
+mv $ordner1/$acme1/$acme.pem $ordner1/$acme1/fullchain.pem || bad_certs
 
 # now O.K. key
 pkey=$(jq -e -r --arg acme "$acme" '.[].Certificates[] | select(.domain.main==$acme) | .key' $ordner/acme.json | base64 -d > $ordner1/$acme1/privkey.pem) || bad_certs
