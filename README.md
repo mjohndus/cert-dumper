@@ -29,21 +29,17 @@ usage 1,2.. Certificates:
   -  private.key
 
 1. /sub  
-   - files :  
-     - cert.pem  
-     - chain.pem  
-     - sub.domain.de.pem  
-     - equal to  
-     - fullchain.pem  
-     - privkey.pem  
-
-2. /sub  
-   - files:  
+   - files :
      - cert.pem
      - chain.pem
-     - sub.domain.pem
-     - equal to
      - fullchain.pem
-     - privkey.pem  
+     - privkey.pem
+
+2. /sub  
+   - files:
+     - cert.pem
+     - chain.pem
+     - fullchain.pem
+     - privkey.pem
  
  
