@@ -61,8 +61,7 @@ There didn't seem to be a private key in $ordner/acme.json.
 Please ensure that there is a key in this file and try again." >&2
 exit
 fi
-echo -e "-----BEGIN RSA PRIVATE KEY-----\n${priv}\n-----END RSA PRIVATE KEY-----" \
-   | openssl rsa -inform pem -out $ordner1/private.key
+echo -e "-----BEGIN RSA PRIVATE KEY-----\n${priv}\n-----END RSA PRIVATE KEY-----" | openssl rsa -inform pem -out $ordner1/private.key
 }
 
 function certer {
